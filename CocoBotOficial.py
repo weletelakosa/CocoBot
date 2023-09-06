@@ -62,6 +62,7 @@ async def cocotime(ctx):
         cococontador = 1
 
 
+# Devuelve el record actual
 @bot.command()
 async def record(ctx):
     record_actual = leer_record()
