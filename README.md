@@ -1,9 +1,14 @@
 CocoBot - Basicamente el mejor contador de cocos en el mundo (lo dice la ciencia)
 
+
 Comandos:
+
 /coco -> envia un Coco en el chat.
+
 /cocotime -> Inicia el Cocotime, para continuar la cadena de cocos envia un coco.
+
 /record -> Envia el record actual de la cantidad de cocos enviados en secuencia.
+
 
 Pasos a seguir para poner el bot en accion:
 
