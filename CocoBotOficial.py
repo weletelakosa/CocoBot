@@ -94,4 +94,4 @@ async def on_message(message):
     await bot.process_commands(message)
 
 # Tokenazo del mejor bot en el mundo
-bot.run('MTE0ODA3NjM2MTk4Mjk1MTQyNA.GQhxas.UQeOAimZK_3UDWy377k_yxAcEGXAYPb4BuWRzs')
+bot.run('TOKENAZO')
