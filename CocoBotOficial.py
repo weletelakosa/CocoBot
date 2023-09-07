@@ -91,7 +91,7 @@ async def on_message(message):
     if cococadena and message.content == coco_emoji:
         cococontador += 1
     elif cococadena:
-        await message.channel.send(f'Cocotime is over :( llegamos a {cococontador} cocardos. Gracias a todos los que participaron y palazo al que rompio la cadena')
+        await message.channel.send(f'Cocotime is over :( llegamos a {cococontador} cocardos. Gracias a todos los que participaron y palazo al {message.author.mention}')
         
         # chequeamos si es un nuevo record
         if actualizar_record(cococontador):
