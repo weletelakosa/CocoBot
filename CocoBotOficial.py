@@ -70,6 +70,16 @@ async def record(ctx):
     await ctx.send(f'El record actual de la CocoSecuencia es de {record_actual}.')
 
 
+# Envia una escalerita de cocardos
+@bot.command()
+async def cocostairs(ctx):
+    i = 1
+
+    while(i<=5):
+        await ctx.send(f'{coco_emoji * i}')
+        i += 1
+
+
 @bot.event
 async def on_message(message):
     global cococadena, cococontador
@@ -81,7 +91,7 @@ async def on_message(message):
     if cococadena and message.content == coco_emoji:
         cococontador += 1
     elif cococadena:
-        await message.channel.send(f'Cocotime is over :( llegamos a {cococontador} cocardos. Gracias a todos los que participaron y palazo al que rompio la cadena)')
+        await message.channel.send(f'Cocotime is over :( llegamos a {cococontador} cocardos. Gracias a todos los que participaron y palazo al que rompio la cadena')
         
         # chequeamos si es un nuevo record
         if actualizar_record(cococontador):

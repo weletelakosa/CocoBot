@@ -9,6 +9,8 @@
 
 * /record -> Envia el record actual de la cantidad de cocos enviados en secuencia.
 
+* /cocostairs -> Envia una escalera de cocos
+
 
 ## Pasos a seguir para poner el bot en accion:
 
