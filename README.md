@@ -1,16 +1,16 @@
-CocoBot - Basicamente el mejor contador de cocos en el mundo (lo dice la ciencia)
+# CocoBot - Basicamente el mejor contador de cocos en el mundo (lo dice la ciencia)
 
 
-Comandos:
+# Comandos:
 
-1. /coco -> envia un Coco en el chat.
+* /coco -> envia un Coco en el chat.
 
-2. /cocotime -> Inicia el Cocotime, para continuar la cadena de cocos envia un coco.
+* /cocotime -> Inicia el Cocotime, para continuar la cadena de cocos envia un coco.
 
-3. /record -> Envia el record actual de la cantidad de cocos enviados en secuencia.
+* /record -> Envia el record actual de la cantidad de cocos enviados en secuencia.
 
 
-Pasos a seguir para poner el bot en accion:
+# Pasos a seguir para poner el bot en accion:
 
 1. Crear el bot: Nos dirigimos a https://discord.com/developers/applications y creamos una nueva aplicacion.
 
