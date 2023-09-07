@@ -3,6 +3,8 @@
 
 ## Comandos:
 
+* /ayuda -> Envia la lista de comandos disponibles.
+
 * /coco -> envia un Coco en el chat.
 
 * /cocotime -> Inicia el Cocotime, para continuar la cadena de cocos envia un coco.

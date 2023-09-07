@@ -41,6 +41,19 @@ async def on_ready():
     print(f'Logged in as {bot.user.name}')
 
 
+# Pa saber que comandos tiene el bot
+@bot.command()
+async def ayuda(ctx):
+    lista_cmd = """
+/coco -> envia un Coco en el chat.
+/cocotime -> Inicia el Cocotime, para continuar la cadena de cocos envia un coco.
+/record -> Envia el record actual de la cantidad de cocos enviados en secuencia.
+/cocostairs -> Envia una escalera de cocos
+"""
+
+    await ctx.send(f'Estos son los comandos disponibles:\n{lista_cmd}')
+
+
 # Manda un coquito bien fachero al hacer /coco
 @bot.command()
 async def coco(ctx):
