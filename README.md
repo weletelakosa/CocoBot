@@ -15,7 +15,7 @@ Basicamente el mejor contador de cocos en el mundo (lo dice la ciencia)
 * /cocostairs -> Envia una escalera de cocos
 
 
-## Pasos a seguir para poner el bot en accion:
+## Instrucciones:
 
 1. **Crear el bot:** 
 Nos dirigimos a https://discord.com/developers/applications y creamos una nueva aplicacion.
