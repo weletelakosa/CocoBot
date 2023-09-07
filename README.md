@@ -26,7 +26,7 @@ En la pagina siguiente a la anterior, hacemos click en el apartado "Bot". Aqui c
 3. **Invitar el bot al server:**
 Ahora nos vamos al apartado "OAuth2" y vamos a "URL Generator". Aqui buscamos la opcion que dice "bot", la chequeamos y bajamos al final de la pagina para copiar el link que nos acaba de generar.  
 
-···Pegamos el link en otra ventana del browser (No se pasen de listos diciendo "la pegue en la ventana del baño, no especificaste :V"), le damos click y aceptamos.
+    Pegamos el link en otra ventana del browser (No se pasen de listos diciendo "la pegue en la ventana del baño, no especificaste :V"), le damos click y aceptamos.
 
 Ya tenemos el bot creado e invitado al server, ahora falta el script.
 
