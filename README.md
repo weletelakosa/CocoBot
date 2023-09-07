@@ -1,4 +1,5 @@
-# CocoBot - Basicamente el mejor contador de cocos en el mundo (lo dice la ciencia)
+<h1 align="center"> CocoBot </h1>
+Basicamente el mejor contador de cocos en el mundo (lo dice la ciencia)
 
 
 ## Comandos:
